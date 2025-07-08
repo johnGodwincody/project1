@@ -1,0 +1,139 @@
+  .header {
+        background-color: green;
+      }
+      .headerlist {
+        display: inline;
+        list-style-type: none;
+        float: right;
+        padding: 30px;
+        gap: 40px;
+        display: flex;
+        background-color: green;
+      }
+     .background-image {
+      background-image: url(bootstrap/Auto-motos/john-matychuk-FgTcokJpm9w-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+      h1 {
+        color: gray;
+        text-align: center;
+        font-weight: 700;
+      }
+      h2 {
+        color: gray;
+        text-align: center;
+      }
+      p {
+        cursor: pointer;
+        text-align: center;
+        color: gray;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+         "header menu main submenu" 
+         "header menu main submenu";
+        gap: 20px;
+        background-color: transparent;
+        padding: 10px;
+      }
+      .grid-container > div {
+        padding: 20px;
+        font-size: 30px;
+      }
+      .item1 {
+        grid-area: header;
+      }
+      .item1 ul {
+        list-style-type: none;
+        margin: 100px;
+        padding: 100px;
+        height: fit-content;
+        background-image: url(image/imagessssss.jpg);
+      }
+      .item1 li {
+        padding: 8px;
+        margin-bottom: 7px;
+        background-color: transparent;
+        color: #ffffff;
+      }
+      .item1 li:hover {
+        background-color: skyblue;
+        cursor: pointer;
+        color: black;
+      }
+      .item2 {
+        grid-area: menu;
+      }
+      .item2 ul {
+        list-style-type: none;
+        margin: 100px;
+        padding: 100px;
+        background-image: url(image/machin.jpg);
+      }
+      .item2 li {
+        padding: 8px;
+        margin-bottom: 7px;
+        background-color: transparent;
+        color: #ffffff;
+      }
+      .item2 li:hover {
+        background-color: black;
+        cursor: pointer;
+      }
+       .item3 {
+        grid-area: main;
+      }
+      .item3 ul {
+        list-style-type: none;
+        margin: 100px;
+        padding: 100px;
+        height: fit-content;
+        background-image: url(image/mechanical.jpg);
+      }
+      .item3 li {
+        padding: 8px;
+        margin-bottom: 7px;
+        background-color: transparent;
+        color: #ffffff;
+      }
+      .item3 li:hover {
+        background-color: black;
+        cursor: pointer;
+      }
+      .item4 {
+        grid-area: submenu;
+      }
+      .item4 ul {
+        list-style-type: none;
+        margin: 100px;
+        padding: 100px;
+        background-image: url(image/engineering.jpg);
+      }
+      .item4 li {
+        padding: 8px;
+        margin-bottom: 7px;
+        background-color: transparent;
+        color: #ffffff;
+      }
+      .item4 li:hover {
+        background-color: black;
+        cursor: pointer;
+      }
+      .center-button {
+        background-color: black;
+        border: none;
+        color: darkgray;
+        padding: 40px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 35px;
+        margin: 0 auto;
+        cursor: pointer;
+      }
+       

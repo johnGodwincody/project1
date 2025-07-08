@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Auto-motos</title>
+  </head>
+
+  <body>
+    <header></header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <img src="" alt="" />
+        <a class="navbar-brand text-uppercase" href="#">Auto-motos</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Categories">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#FAQs">FAQs</a>
+            </li>
+             <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Email</a></li>
+                <li><a class="dropdown-item" href="#">Phone Number</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Instagram</a>
+                </li>
+              </ul>
+            </li>
+     <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+         
+        </div>
+      </div>
+    </nav>
+    <main>
+<section class="modal fade" tabindex="-1" id="booking-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Book a Ride</h5>
+        <button
+         type="button" 
+         class="btn-close" 
+         data-bs-dismiss="modal" 
+         aria-label="Close"
+         ></button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+            <div class="row g-2">
+                <div class="col-sm-6">
+                 <div class="form-floating">
+                     <input id="email" type="email" class="form-control" placeholder="Your email address"
+                     />
+                     <label for="email">Email Address</label>
+                 </div>
+                </div>
+                  <div class="col-sm-6 bg">
+                      <div class="form-floating">
+                         <select id="select1" class="form-select">
+                            <option value="">BENZ, GLK-&#8358 5000,000</option>
+                            <option value="">KIA, RX350-&#8358 7,000,000</option>
+                            <option value="">BMW</option>
+                            
+                         </select>
+                         <label for="select">buy a car</label>
+
+                        </div>
+                 </div>
+             </div>
+        </form>
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">buy a ride</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <section>
+            <div id="hero-carousel" class="carousel slide">
+  <div class="carousel-indicators">
+    <button
+    type="button"
+    data-bs-target="#hero-carousel"
+    data-bs-slide-to="0"
+    class="active"
+    aria-current="true"
+    aria-label="slide 1"
+    ></button>
+      <button
+    type="button"
+    data-bs-target="#hero-carousel"
+    data-bs-slide-to="1"
+    class="active"
+    aria-current="true"
+    aria-label="slide 2"
+    ></button>
+      <button
+    type="button"
+    data-bs-target="#hero-carousel"
+    data-bs-slide-to="2"
+    class="active"
+    aria-current="true"
+    aria-label="slide 3"
+    >Auto-motos</button>
+    </div>
+    <div class="carousel-inner">
+         <div class="carousel-item active c-item">
+            <img src="stefan-rodriguez-2AovfzYV3rc-unsplash.jpg" class="d-block w-100 c-img" alt="">
+             <div class="carousel-caption top-0 mt-4">
+        <p class="fs-3 mt-5 text-uppercase">Crafted for comfort. Designed for Safety</p>
+         <h1 class="display-1 fw-bold text-capitalize">Auto-Motos</h1>
+        <div> <button 
+                class="btn btn-primary px-4 py-2 fs-5 mt-5" 
+                data-bs-toggle="modal" 
+                data-bs-target="#booking-modal">
+                Buy a Ride
+          </button></div>
+      </div>
+        </div>
+        <div class="carousel-item active c-item">
+            <img src="john-matychuk-FgTcokJpm9w-unsplash.jpg" class="d-block w-100 c-img" alt="">
+             <div class="carousel-caption top-0 mt-4">
+        <p class="fs-3 mt-5 text-uppercase">Crafted for comfort. Designed for Safety</p>
+         <h1 class="display-1 fw-bold text-capitalize">Auto-Motos</h1>
+        <div> <button 
+                class="btn btn-primary px-4 py-2 fs-5 mt-5" 
+                data-bs-toggle="modal" 
+                data-bs-target="#booking-modal">
+                Buy a Ride
+          </button></div>
+      </div>
+        </div>
+        <div class="carousel-item active c-item">
+            <img src="meritt-thomas-BwBxVVdlpYE-unsplash.jpg" class="w-100 c-img" alt="">
+             <div class="carousel-caption top-0 mt-4">
+        <p class="fs-3 mt-5 text-uppercase">Crafted for comfort. Designed for Safety</p>
+        <h1 class="display-1 fw-bold text-capitalize">Auto-Motos</h1>
+        <div> <button 
+                class="btn btn-primary px-4 py-2 fs-5 mt-5" 
+                data-bs-toggle="modal" 
+                data-bs-target="#booking-modal">
+                Buy a Ride
+          </button></div>
+      </div>
+        </div>
+    </div>
+    
+ <div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+       </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+     </button>
+ </div>
+        </section>
+        <section class="icon-section">
+          <div class="container h-100 d-flex align-items-center bg-gray">
+            <div class="row w-100 tex-center fs-4">
+              <div class="col-xl">
+               <i class="bi bi-car-front"></i>
+               Luxury and Comfort
+              </div>
+              <div class="col-xl">
+                <i class="bi bi-speedometer2"></i>
+                Fast and Steady
+
+              </div>
+              <div class="col-xl">
+              <i class="bi bi-shop"></i>
+              Make A choice
+
+              </div>
+              
+            </div>
+          </div>
+          
+
+        </section>
+        <section id="Categories" class="pt-5 bg-danger">
+          <h2 class="text-center my-5">Categories</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col"><div class="card" style="width: 18rem;">
+  <img src="tim-meyer-GIm7wxiAZys-unsplash.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Speed</h5>
+    <p class="card-text">Do you love going through the wind with a supersonic speed while comfortable?
+      Get behind the wheel of a machine designed to leave the competition in the dust, your need for speed starts here.</p>
+    <a href="#" class="btn btn-primary">zap in<i style="color: red;" class="bi-lightning-fill"></i></a>
+  </div>
+</div></div>
+              <div class="col"><div class="card" style="width: 18rem;">
+  <img src="i-u-aCa0T0uzLfQ-unsplash.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Luxury</h5>
+    <p class="card-text">Embrace “The Ultimate Driving Experience”, a promise of peerless comfort, precision, and style perfect for those who demand nothing but the best .</p>
+    <a href="#" class="btn btn-primary">Explore My Exclusive Luxury Car Collection</a>
+  </div>
+</div></div>
+              <div class="col"><div class="card" style="width: 18rem;">
+  <img src="katelyn-greer-0S8WcLt1S9E-unsplash.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Vintage</h5>
+    <p class="card-text">Step back in time and experience the elegance, charm, and craftsmanship of a bygone era with our exclusive collection of vintage cars. Own a piece of automotive history—each of our vintage models tells a story worth driving.</p>
+    <a href="#" class="btn btn-primary">“Tap here to step back in time"</a>
+  </div>
+</div></div>
+
+            </div>
+
+          </div>
+
+        </section>
+        <section id="FAQs" class="py-md-5">
+          <h1 class="my-5 text-center">FAQs</h1>
+          <div class="container">
+            <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       <strong> What’s the total cost of the car, including taxes and fees?</strong>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Answer: The total cost includes the base price of the car, taxes, registration, title fees, and any additional options or packages you've selected. We can provide you with a detailed breakdown before you finalize your purchase.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <strong>What financing options do you offer, and what are the interest rates?</strong>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Answer: We offer a variety of financing options, including loans with flexible terms and competitive interest rates. Rates vary based on your credit score, down payment, and loan term. Our finance team can work with you to find the best plan.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <strong>What are the maintenance costs like, and how often does the car require service?</strong>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Answer: Maintenance costs vary depending on the car's model and usage. Generally, routine maintenance like oil changes, tire rotations, and brake checks occur every 5,000 to 7,500 miles. We also offer service packages that help lower long-term costs.
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+
+        </section>
+    </main>
+    <footer>
+      <div class="container mb-5">
+        <div class="bg-dark py-5 mt-5">
+          <p class="display-5 mb-3">Auto-Motos</p>
+          <p class="text-white-50 text-center">&copy; Copyright 2025 by John.G.S. All right reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
